@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_top"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="#000000"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+   <!--  <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:id="@+id/tv_tab_activity"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:text="@string/tab_1"
+            android:textColor="@color/lightwhite"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_tab_groups"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:text="@string/tab_2"
+            android:textColor="@color/lightwhite"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_tab_friends"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:text="@string/tab_3"
+            android:textColor="@color/lightwhite"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_tab_chat"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:text="@string/tab_4"
+            android:textColor="@color/lightwhite"
+            android:textSize="18sp" />
+    </LinearLayout> -->
+
+</LinearLayout>
